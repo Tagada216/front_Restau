@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+}
+
+.header{
+    grid-column: 2 / span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer{
+    grid-column: 1 / span 2;
+}
+
+s
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    cursor: pointer;
+    margin-right: 2rem;
+    border: solid 2px black;
+    width: 200px;
+    height: 42px;
+    font-family: 'Poppins';
+    font-size: large;
+    font-weight: bold;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.logo{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 5rem;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.secondary-title{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.secondary-title::after{
+    display: block;
+    height: 2px;
+    width: 40px;
+    content: ' ';
+    background: black;
+    margin-top: 7px;
+}
+
+.entree-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    
+}
+
+.plat-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    
+}
+
+.dessert-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    
+}
+
+.name{
+    padding-right: 1rem;
+    
+}
+
+.plat{
+   font-size: large;
+   height: 24px;
+}
+
+.price{
+    font-size: large;
+}
+
+.price-i{
+    font-size: large;
+}
+
+.menu-section{
+    
+    
+}
+
+.main{
+    
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.aside{
+
+    margin-top: 10rem;
+    width: 200px;
+    height: 300px;
+}
+footer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.title-footer{
+    font-family: 'Poppins', Time, serif;
+    color: white;
+    
+}
+
+.title-footer::after{
+    display: block;
+    height: 2px;
+    width: 40px;
+    content: ' ';
+    background: rgba(255, 255, 255, 0.24);
+    margin-top: 7px;
+}
+
+.text{
+    color: #677070;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.copyright-text{
+
+    font-family: 'Poppins';
+    text-align: center;
+    border-top: solid 1px white;
+    width: 800px;
+    color: white;
+}
+
+.section-footer{
+    width: 500px;
+}
